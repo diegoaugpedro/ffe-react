@@ -1,7 +1,7 @@
 import React from "react";
 
-export const NavMenu = (props) => (
-  <nav className="main-nav">
+export const SectionMenu = (props) => (
+  <nav className="section-nav">
     <ul>
         {props.items.map(item => (
             <li>
